@@ -30,3 +30,17 @@ body {
     padding-right: 5px;
 
   }
+  a.img2:hover:after {
+    content: url(img/SDMNCL.jpeg); 
+    display: block;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+  }
+
+.img2:hover{
+    border: 5px solid #555;
+}
