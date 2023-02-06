@@ -4,11 +4,18 @@ body {
     text-align: center;
   }
   
-  a {
+a {
     text-decoration: none;
     color: hotpink;
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     padding: 10px;
     border-radius: 25px;
     margin: 20px;
-  }
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px
+}
+  
