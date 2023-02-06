@@ -1,0 +1,46 @@
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+body {
+    font-family: Arial;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    text-align: center;
+
+  }
+  
+  img.logo {
+    image-rendering: -webkit-optimize-contrast;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #div-id {
+    color: black;
+  } 
+  
+  a{
+    text-decoration: none;
+    color: black;
+    padding-block: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+  }
+  a.img2:hover:after {
+    content: url(img/SDMNCL.jpeg); 
+    display: block;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+  }
+
+.img2:hover{
+    border: 5px solid #555;
+}
